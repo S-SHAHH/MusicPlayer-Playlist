@@ -33,7 +33,6 @@ function App() {
         <div className="sWndw">
           <h3>{sList.songName}</h3>
 
-          {/* <ul> <li>{/* <a href="#" /></li> </ul> */}
         </div>
         <div id="aud">
           <audio src={sList.sors} title={sList.songName} type="audio/mp3" autoplay controls />
